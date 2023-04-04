@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+nav {
+    float: left; 
+    width: 300px;
+    height: 100%;
+    background-color: #F1EFE9;
+    position: fixed;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+    /* Because the side bar on the left takes up 300px */
+    margin-left: 300px;
+}
+.owner-name {
+    font-size: 30px;
+}
+#background-img {
+    height: 650px;
+    background: url(./assets/background.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 90%;
+}
+.transparent-box {
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    width: 70%;
+    height: 50%;
+}
+.transparent-box p {
+    font-weight: bold;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Patua One', cursive;
+    font-style: italic;
+}
+hr {
+    margin: 100px auto;
+    width: 15%;
+}
+#Ha-photo {
+    width: 250px;
+}
+.intro {
+    color: #34857F;
+}
