@@ -10,43 +10,106 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Open+Sans:wght@300&family=Passion+One&family=Patua+One&family=Yeseva+One&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&family=Merriweather:ital@1&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&family=Merriweather:ital@0;1&display=swap" rel="stylesheet">
     <title>Ha's personal website</title>
 </head>
 <body>
+    <nav class="hidden-nav">
+        <p class="owner-name"> Hà, Vũ Minh </p>
+        <ul>
+            <li>
+                <a href="#ABOUT">
+                    <p> ABOUT ME </p>
+                </a>
+            </li>
+            <li>
+                <a href="#SKILLS">
+                    <p> MY SKILLS </p>            
+                </a>
+            </li>
+            <li>
+                <a href="#CONTACT">
+                    <p> CONTACT </p>
+                </a>
+            </li>
+        </ul>
+    </nav>
     <nav>
-        <p class="owner-name"> Vũ Minh Hà </p>
-        <p> ABOUT ME </p>
-        <p> CONTACT </p>
+        <div>
+            <p class="owner-name"> Hà,<br> Vũ Minh </p>
+            <a href="#ABOUT">
+                <p> ABOUT ME </p>
+            </a>
+            <a href="#SKILLS">
+                <p> MY SKILLS </p>
+            </a>
+            <a href="#CONTACT">
+                <p> CONTACT </p>
+            </a>
+        </div>
     </nav>
     <main>
         <div id="background-img">
-            <div class="dark-bg"></div>
-            <div class="transparent-box">               
-                <p> "The greatest glory in living lies not in never falling, but in rising every time we fall."</p>
-                <p> - Nelson Mandela -</p>
+            <div class="transparent-box">
+                <div>              
+                    <p class="quote"> "The greatest glory in living lies not in never falling, but in rising every time we fall." </p>
+                    <p class="author"> - Nelson Mandela - </p>
+                </div>
             </div>
         </div>
-        <hr>
+        <hr id="ABOUT">
         <section>
-            <img id="Ha-photo" src="./assets/Ha-photo.png" alt="Ha-photo">
-            <p class="owner-name intro">Vũ Minh Hà </p>
-            <p>Hi everyone 👋, my name is Ha</p>
-            <p>I am a first-year IT student at RMIT Vietnam.</p>
+            <div class="background"></div>
+            <div class="first-section">
+                <img id="Ha-photo" src="./assets/Ha-profile-img.png" alt="Ha-photo">
+                <p class="owner-name intro">Vũ Minh Hà </p>
+                <p>Hi everyone 👋, my name is Ha</p>
+                <p>I am a first-year IT student at RMIT Vietnam</p>
+                <p> SGS Campus</p>
+                <br>
+                <img class="gifs" src="https://media3.giphy.com/media/2A0ch6r1BdlPiVgCtX/giphy.webp" alt="a-girl-eating-noodle-with-her-dog">
+            </div>
+        </section>
+        <hr id="SKILLS">
+        <section>
+            <div class="middle-section">
+                <h1>My Skills</h1>
+                <div>
+                    <img src="https://media4.giphy.com/media/3oxRmmB2KwO5f8pyyA/giphy.gif">
+                    <div>
+                        <h3>Programming experience</h3>
+                        <p>I studied Pascal as a compulsory school subject when I was in grade 8 or 9, and in high school. At the time I didn't think much about it. It was only when I entered university that I find myself enjoy programming and wanting to pursue it as a career.</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>CSS battle</h3>
+                        <p>Lately I have been solving problems on CSS Battle, after being introduced about it for the first time by teacher Tom. Up to now, I have completed over 20 problems, and I gained great enthusiasm from it. However, now I need to finish my assignments first 😄.</p>
+                    </div>
+                    <img class="img-cssbattle" src="https://pbs.twimg.com/profile_images/1114446136302084096/BIu19jPP_400x400.png" alt="CSS-battle-logo">
+                </div>
+            </div>
         </section>
         <hr>
         <section>
-            <h1>My Skills</h1>
-            <h3>Programming experience with Python, Pascal</h3>
-            <p>I studied Pascal as a compulsory school subject when I was in grade 8 or 9, and in high school. At the time I didn't think much about it. It was only when I entered university that I find myself enjoy programming and wanting to pursue it as a career.</p>
-            <h3>CSS battle</h3>
-            <p>Recently I just discovered a site called CSS Battle- where I can build a wide range of figures from HTML and CSS only. Up to now, I have solved more than 20 problems, and I gained great enthusiasm from it. However, now I need to finish my assignments first 😄.</p>
-        </section>
-        <hr>
-        <section>
-            <h1> Connect with me 🤝</h1>
-            
+            <div class="last-section">
+                <img class="hobby-img" src="https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="a-person-sitting-on-mountain-cliff">
+                <p> I have an endless love for the beauty of nature, it's such an amazement as to how things exist so harmonically together. Besides, I also enjoy programming, and reading books.</p>
+                <p id="CONTACT"> If you are interested, let's be friends 🤝, so that we can discuss our knowledge about Web programming, and become a better developer together. </p>
+                <p> You can reach me via: </p>
+                <a href="https://www.facebook.com/minhha.vu.9250/" target="_blank">
+                    <img class="social-media" src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="facebook-icon" title="Facebook">
+                </a>
+                <img class="social-media" src="https://cdn-icons-png.flaticon.com/512/216/216508.png" alt="linkedin-icon" title="LinkedIn">
+                <a href="mailto:s3978681@rmit.edu.vn">
+                    <img class="social-media" src="https://cdn-icons-png.flaticon.com/512/732/732223.png" alt="outlook-icon" title="Outlook">
+                </a>
+            </div>
         </section>
     </main>
 </body>
+<footer>
+    <span> &copy; Copyright by <span class="my-name"> Vu Minh Ha </span> @ RMIT Vietnam 2023</span>
+</footer>
 </html>
