@@ -174,13 +174,13 @@ nav a p:hover {
         margin: 0;
     }
     .hidden-nav {
-        width: initial;
+        width: 100%;
         height: 60px;
         float: none;
-        position: initial;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        z-index: 1;
     }
     .owner-name {
         padding: 8px;
